@@ -9,7 +9,9 @@ Movement: WASD or Arrow Keys
 
 Shoot: Click or P
 
-Power Ups
+
+
+### Power Ups
 
 Health
 
