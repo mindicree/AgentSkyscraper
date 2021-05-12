@@ -11,7 +11,7 @@ public class LevelBlock : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        System.Random rng = new System.Random();
+        System.Random rng = new System.Random((int)(System.DateTime.Now.Ticks%1000));
         int zOffSet = 8200;
         for (int i = 0; i < enemyCount; i++) {
             //x will either be -6, 0, or 6
