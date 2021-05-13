@@ -9,12 +9,12 @@ public class EnemyGround : MonoBehaviour
     public GameObject ammoDrop, hpDrop;
     public Transform transform;
     public AudioSource deathSound;
+    public LevelRNG rng;
 
     public void TakeDamage(int damage) {
         hp -= damage;
         if (hp <= 0) {
-            System.Random rng = new System.Random();
-            double dropChance = rng.NextDouble();
+            double dropChance = rng.GetDropChance();
             Debug.Log("Drop: Destroy Object. Drop Chance: " + dropChance);
             if (dropChance < 0.4) {
                 Debug.Log("Drop: Dropping Ammo");

@@ -41,6 +41,7 @@
      <Compile Include="Assets\Scripts\FollowPlayer.cs" />
      <Compile Include="Assets\Scripts\GameManagerScript.cs" />
      <Compile Include="Assets\Scripts\LevelBlock.cs" />
+     <Compile Include="Assets\Scripts\LevelRNG.cs" />
      <Compile Include="Assets\Scripts\MenuSFXScript.cs" />
      <Compile Include="Assets\Scripts\OnHoverSFX.cs" />
      <Compile Include="Assets\Scripts\PersistentScript.cs" />
